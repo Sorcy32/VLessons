@@ -1,4 +1,4 @@
-"""
+﻿"""
 Домашнее задание №1
 
 Использование библиотек: ephem
@@ -43,7 +43,7 @@ def talk_to_me(bot, update):
  
 
 def main():
-    mybot = Updater("871351306:AAGjqZ1sX53ZFjd0tkj5NPuvk5XI4XwULAM", ) #request_kwargs=PROXY)
+    mybot = Updater("REY", ) #request_kwargs=PROXY)
     
     dp = mybot.dispatcher
     dp.add_handler(CommandHandler("start", greet_user))
